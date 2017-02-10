@@ -1,6 +1,7 @@
+title{ font-family: 'Arial', background-color: #FFFFFF;}
+
 body{
-    font-family: 'Raleway', sans-serif; background-color: #1c1c1c
-} 
+    font-family: 'Raleway', sans-serif; background-color: #FFFFFF
 
 div.title{
     width: 100%;
@@ -8,7 +9,8 @@ div.title{
 }
 
 h1{
-  color: #0B3861;
+  color: #FFFFFF
+;
     font-weight: 400;
     font-size: 2.5em;
     max-width: 800px;
@@ -20,24 +22,38 @@ h1{
 }
 
 h2{
-    text-align: center;
-    color: #FFFFFF
-}
-
-h3{
-  font-size: 1.25em;
   color: #FFFFFF
-    font-weight: 300;
+;
+    font-weight: 400;
+    font-size: 2.5em;
     max-width: 800px;
     text-align: center;
-    margin-top: 5px;
+    margin: 25px, 25px;
+    margin-right: auto;
+    margin-left: auto;
+    margin-bottom: auto;
+}
+h3{
+  color: #FFFFFF
+;
+    font-weight: 400;
+    font-size: 1.5em;
+    max-width: 800px;
+    text-align: center;
+    margin: 25px, 25px;
     margin-right: auto;
     margin-left: auto;
     margin-bottom: auto;
 }
 
+ 
+h4{ font-size: 1.00em
+ color: #FFFFFF;
+ text-align: center;
+}
 div.bio{
     color: #FFFFFF
+    text-align: center;
     max-width: 800px;
     margin-top: 20px;
     margin-right: auto;
@@ -49,6 +65,7 @@ img.bioImage{
     margin: auto;
     display: block;
 }
+
 
 p.bioText{
     color: #FFFFFF
